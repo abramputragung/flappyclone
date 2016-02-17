@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		805330021C747C0900C3E5A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330011C747C0900C3E5A7 /* AppDelegate.swift */; };
+		805330041C747C0900C3E5A7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 805330031C747C0900C3E5A7 /* GameScene.sks */; };
+		805330061C747C0900C3E5A7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330051C747C0900C3E5A7 /* GameScene.swift */; };
+		805330081C747C0900C3E5A7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330071C747C0900C3E5A7 /* GameViewController.swift */; };
+		8053300B1C747C0900C3E5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805330091C747C0900C3E5A7 /* Main.storyboard */; };
+		8053300D1C747C0900C3E5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8053300C1C747C0900C3E5A7 /* Assets.xcassets */; };
+		805330101C747C0900C3E5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053300E1C747C0900C3E5A7 /* LaunchScreen.storyboard */; };
+		8053301B1C747C0900C3E5A7 /* FlappyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053301A1C747C0900C3E5A7 /* FlappyCloneTests.swift */; };
+		805330261C747C0900C3E5A7 /* FlappyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330251C747C0900C3E5A7 /* FlappyCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		805330171C747C0900C3E5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80532FF61C747C0900C3E5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80532FFD1C747C0900C3E5A7;
+			remoteInfo = FlappyClone;
+		};
+		805330221C747C0900C3E5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80532FF61C747C0900C3E5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80532FFD1C747C0900C3E5A7;
+			remoteInfo = FlappyClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80532FFE1C747C0900C3E5A7 /* FlappyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		805330011C747C0900C3E5A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		805330031C747C0900C3E5A7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		805330051C747C0900C3E5A7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		805330071C747C0900C3E5A7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8053300A1C747C0900C3E5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8053300C1C747C0900C3E5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8053300F1C747C0900C3E5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		805330111C747C0900C3E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805330161C747C0900C3E5A7 /* FlappyCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8053301A1C747C0900C3E5A7 /* FlappyCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyCloneTests.swift; sourceTree = "<group>"; };
+		8053301C1C747C0900C3E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805330211C747C0900C3E5A7 /* FlappyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		805330251C747C0900C3E5A7 /* FlappyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyCloneUITests.swift; sourceTree = "<group>"; };
+		805330271C747C0900C3E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80532FFB1C747C0900C3E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805330131C747C0900C3E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8053301E1C747C0900C3E5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80532FF51C747C0900C3E5A7 = {
+			isa = PBXGroup;
+			children = (
+				805330001C747C0900C3E5A7 /* FlappyClone */,
+				805330191C747C0900C3E5A7 /* FlappyCloneTests */,
+				805330241C747C0900C3E5A7 /* FlappyCloneUITests */,
+				80532FFF1C747C0900C3E5A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80532FFF1C747C0900C3E5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80532FFE1C747C0900C3E5A7 /* FlappyClone.app */,
+				805330161C747C0900C3E5A7 /* FlappyCloneTests.xctest */,
+				805330211C747C0900C3E5A7 /* FlappyCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		805330001C747C0900C3E5A7 /* FlappyClone */ = {
+			isa = PBXGroup;
+			children = (
+				805330011C747C0900C3E5A7 /* AppDelegate.swift */,
+				805330031C747C0900C3E5A7 /* GameScene.sks */,
+				805330051C747C0900C3E5A7 /* GameScene.swift */,
+				805330071C747C0900C3E5A7 /* GameViewController.swift */,
+				805330091C747C0900C3E5A7 /* Main.storyboard */,
+				8053300C1C747C0900C3E5A7 /* Assets.xcassets */,
+				8053300E1C747C0900C3E5A7 /* LaunchScreen.storyboard */,
+				805330111C747C0900C3E5A7 /* Info.plist */,
+			);
+			path = FlappyClone;
+			sourceTree = "<group>";
+		};
+		805330191C747C0900C3E5A7 /* FlappyCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8053301A1C747C0900C3E5A7 /* FlappyCloneTests.swift */,
+				8053301C1C747C0900C3E5A7 /* Info.plist */,
+			);
+			path = FlappyCloneTests;
+			sourceTree = "<group>";
+		};
+		805330241C747C0900C3E5A7 /* FlappyCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				805330251C747C0900C3E5A7 /* FlappyCloneUITests.swift */,
+				805330271C747C0900C3E5A7 /* Info.plist */,
+			);
+			path = FlappyCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80532FFD1C747C0900C3E5A7 /* FlappyClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8053302A1C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyClone" */;
+			buildPhases = (
+				80532FFA1C747C0900C3E5A7 /* Sources */,
+				80532FFB1C747C0900C3E5A7 /* Frameworks */,
+				80532FFC1C747C0900C3E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyClone;
+			productName = FlappyClone;
+			productReference = 80532FFE1C747C0900C3E5A7 /* FlappyClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		805330151C747C0900C3E5A7 /* FlappyCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8053302D1C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyCloneTests" */;
+			buildPhases = (
+				805330121C747C0900C3E5A7 /* Sources */,
+				805330131C747C0900C3E5A7 /* Frameworks */,
+				805330141C747C0900C3E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805330181C747C0900C3E5A7 /* PBXTargetDependency */,
+			);
+			name = FlappyCloneTests;
+			productName = FlappyCloneTests;
+			productReference = 805330161C747C0900C3E5A7 /* FlappyCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		805330201C747C0900C3E5A7 /* FlappyCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 805330301C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyCloneUITests" */;
+			buildPhases = (
+				8053301D1C747C0900C3E5A7 /* Sources */,
+				8053301E1C747C0900C3E5A7 /* Frameworks */,
+				8053301F1C747C0900C3E5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				805330231C747C0900C3E5A7 /* PBXTargetDependency */,
+			);
+			name = FlappyCloneUITests;
+			productName = FlappyCloneUITests;
+			productReference = 805330211C747C0900C3E5A7 /* FlappyCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80532FF61C747C0900C3E5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Abraham Sidabutar";
+				TargetAttributes = {
+					80532FFD1C747C0900C3E5A7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3DR8SFXS6F;
+					};
+					805330151C747C0900C3E5A7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3DR8SFXS6F;
+						TestTargetID = 80532FFD1C747C0900C3E5A7;
+					};
+					805330201C747C0900C3E5A7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3DR8SFXS6F;
+						TestTargetID = 80532FFD1C747C0900C3E5A7;
+					};
+				};
+			};
+			buildConfigurationList = 80532FF91C747C0900C3E5A7 /* Build configuration list for PBXProject "FlappyClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80532FF51C747C0900C3E5A7;
+			productRefGroup = 80532FFF1C747C0900C3E5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80532FFD1C747C0900C3E5A7 /* FlappyClone */,
+				805330151C747C0900C3E5A7 /* FlappyCloneTests */,
+				805330201C747C0900C3E5A7 /* FlappyCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80532FFC1C747C0900C3E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805330041C747C0900C3E5A7 /* GameScene.sks in Resources */,
+				805330101C747C0900C3E5A7 /* LaunchScreen.storyboard in Resources */,
+				8053300D1C747C0900C3E5A7 /* Assets.xcassets in Resources */,
+				8053300B1C747C0900C3E5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805330141C747C0900C3E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8053301F1C747C0900C3E5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80532FFA1C747C0900C3E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805330061C747C0900C3E5A7 /* GameScene.swift in Sources */,
+				805330081C747C0900C3E5A7 /* GameViewController.swift in Sources */,
+				805330021C747C0900C3E5A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		805330121C747C0900C3E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8053301B1C747C0900C3E5A7 /* FlappyCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8053301D1C747C0900C3E5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805330261C747C0900C3E5A7 /* FlappyCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		805330181C747C0900C3E5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80532FFD1C747C0900C3E5A7 /* FlappyClone */;
+			targetProxy = 805330171C747C0900C3E5A7 /* PBXContainerItemProxy */;
+		};
+		805330231C747C0900C3E5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80532FFD1C747C0900C3E5A7 /* FlappyClone */;
+			targetProxy = 805330221C747C0900C3E5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		805330091C747C0900C3E5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8053300A1C747C0900C3E5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8053300E1C747C0900C3E5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8053300F1C747C0900C3E5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		805330281C747C0900C3E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		805330291C747C0900C3E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8053302B1C747C0900C3E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlappyClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8053302C1C747C0900C3E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlappyClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8053302E1C747C0900C3E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyClone.app/FlappyClone";
+			};
+			name = Debug;
+		};
+		8053302F1C747C0900C3E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlappyCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyClone.app/FlappyClone";
+			};
+			name = Release;
+		};
+		805330311C747C0900C3E5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyClone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		805330321C747C0900C3E5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlappyCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyClone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80532FF91C747C0900C3E5A7 /* Build configuration list for PBXProject "FlappyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805330281C747C0900C3E5A7 /* Debug */,
+				805330291C747C0900C3E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8053302A1C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8053302B1C747C0900C3E5A7 /* Debug */,
+				8053302C1C747C0900C3E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8053302D1C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8053302E1C747C0900C3E5A7 /* Debug */,
+				8053302F1C747C0900C3E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		805330301C747C0900C3E5A7 /* Build configuration list for PBXNativeTarget "FlappyCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				805330311C747C0900C3E5A7 /* Debug */,
+				805330321C747C0900C3E5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80532FF61C747C0900C3E5A7 /* Project object */;
+}
