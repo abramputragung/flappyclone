@@ -16,6 +16,8 @@
 		805330101C747C0900C3E5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053300E1C747C0900C3E5A7 /* LaunchScreen.storyboard */; };
 		8053301B1C747C0900C3E5A7 /* FlappyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053301A1C747C0900C3E5A7 /* FlappyCloneTests.swift */; };
 		805330261C747C0900C3E5A7 /* FlappyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330251C747C0900C3E5A7 /* FlappyCloneUITests.swift */; };
+		805330341C74B69100C3E5A7 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805330331C74B69100C3E5A7 /* RandomFunction.swift */; };
+		805330361C74CEE400C3E5A7 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 805330351C74CEE400C3E5A7 /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		805330211C747C0900C3E5A7 /* FlappyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805330251C747C0900C3E5A7 /* FlappyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyCloneUITests.swift; sourceTree = "<group>"; };
 		805330271C747C0900C3E5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805330331C74B69100C3E5A7 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		805330351C74CEE400C3E5A7 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		805330001C747C0900C3E5A7 /* FlappyClone */ = {
 			isa = PBXGroup;
 			children = (
+				805330351C74CEE400C3E5A7 /* 04B_19__.TTF */,
+				805330331C74B69100C3E5A7 /* RandomFunction.swift */,
 				805330011C747C0900C3E5A7 /* AppDelegate.swift */,
 				805330031C747C0900C3E5A7 /* GameScene.sks */,
 				805330051C747C0900C3E5A7 /* GameScene.swift */,
@@ -240,6 +246,7 @@
 			files = (
 				805330041C747C0900C3E5A7 /* GameScene.sks in Resources */,
 				805330101C747C0900C3E5A7 /* LaunchScreen.storyboard in Resources */,
+				805330361C74CEE400C3E5A7 /* 04B_19__.TTF in Resources */,
 				8053300D1C747C0900C3E5A7 /* Assets.xcassets in Resources */,
 				8053300B1C747C0900C3E5A7 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +275,7 @@
 			files = (
 				805330061C747C0900C3E5A7 /* GameScene.swift in Sources */,
 				805330081C747C0900C3E5A7 /* GameViewController.swift in Sources */,
+				805330341C74B69100C3E5A7 /* RandomFunction.swift in Sources */,
 				805330021C747C0900C3E5A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlappyClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlappyClone.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -421,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlappyClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.FlappyClone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FlappyClone.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
